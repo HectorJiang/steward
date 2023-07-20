@@ -1,7 +1,7 @@
 /*
  * @Author: Hector Jiang
  * @Date: 2023-07-16 12:26:32
- * @LastEditTime: 2023-07-19 18:31:09
+ * @LastEditTime: 2023-07-20 09:20:11
  * @Description: 
  */
 import React from 'react';
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
     }
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root')!);
 root.render(
     <React.StrictMode>
         <RouterProvider router={router} />
